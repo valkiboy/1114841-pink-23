@@ -45,7 +45,7 @@
     <section class="photo">
       <h2 class="visually-hidden">Фотогаллерея</h2>
       <div class="photo__sticker">
-        <span>Паронама дня</span>
+        <span>Панорама дня</span>
       </div>
       <article class="photo__item-panorama">
         <h3 class="visually-hidden">Фотография панорама</h3>
@@ -57,7 +57,7 @@
           <p>Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои
             вопросы!</p>
           <footer class="photo__footer">
-            <span class="heart"></span>
+            <button class="button heart" type="button"></button>
             <p>Нравится:<span>215</span></p>
           </footer>
         </div>
@@ -73,7 +73,7 @@
             <header class="photo__header">Левон <span>(5 часов назад)</span></header>
             <p>Вчера он на луну летал, сегодня в руки к нам попал.</p>
             <footer class="photo__footer">
-              <span class="heart"></span>
+              <button class="button heart" type="button"></button>
               <p>Нравится:<span>356</span></p>
             </footer>
           </div>
@@ -87,7 +87,7 @@
             <header class="photo__header">Антон <span>(12 часов назад)</span></header>
             <p>Соседи будут рады!</p>
             <footer class="photo__footer">
-              <span class="heart"></span>
+              <button class="button heart" type="button"></button>
               <p>Нравится:<span>666</span></p>
             </footer>
           </div>
@@ -102,7 +102,7 @@
             <header class="photo__header">Борис <span>(20 часов назад)</span></header>
             <p>Здесь могла быть ваша цитата о высоком и вечном.</p>
             <footer class="photo__footer">
-              <span class="heart"></span>
+              <button class="button heart" type="button"></button>
               <p>Нравится:<span>356</span></p>
             </footer>
           </div>
@@ -116,7 +116,7 @@
             <header class="photo__header">Сергей <span>(25 часов назад)</span></header>
             <p>Самая кубанская в мире!</p>
             <footer class="photo__footer">
-              <span class="heart"></span>
+              <button class="button heart" type="button"></button>
               <p>Нравится:<span>4</span></p>
             </footer>
           </div>
@@ -131,7 +131,7 @@
             <header class="photo__header">Максим <span>(40 часов назад)</span></header>
             <p>Где снег-то?</p>
             <footer class="photo__footer">
-              <span class="heart"></span>
+              <button class="button heart" type="button"></button>
               <p>Нравится:<span>150</span></p>
             </footer>
           </div>
@@ -145,7 +145,7 @@
             <header class="photo__header">Надежда <span>(45 часов назад)</span></header>
             <p>Всем GM и взаимные лайки!</p>
             <footer class="photo__footer">
-              <span class="heart"></span>
+              <button class="button heart" type="button"></button>
               <p>Нравится:<span>2560</span></p>
             </footer>
           </div>
@@ -157,26 +157,28 @@
       <h2 class="visually-hidden">Сделай фото лучше</h2>
       <form class="palette__form" action="https://echo.htmlacademy.ru" method="post">
         <div class="palette__image">
-          <img src="./img/photo-7-mobile.jpg" alt="Фото заснеженной дороги в зимнем лесу">
+          <label class="palette__image__label"><input class="visually-hidden palette__image__input" type="file"
+              name="photo"></label>
         </div>
         <fieldset class="palette__effects">
-          <ul class="palette__effects__list">
-            <li class="palette__effects__item">
-              <label class="palette__effect__label-radio"><input class="palette__effect__radio" type="radio" name="effect"
-                  checked></label>
-            </li>
-            <li class="palette__effects__item">
-              <label class="palette__effect__label-radio"><input class="palette__effect__radio" type="radio" name="effect"></label>
-            </li>
-            <li class="palette__effects__item">
-              <label class="palette__effect__label-radio"><input class="palette__effect__radio" type="radio" name="effect"></label>
-            </li>
-          </ul>
+          <button class="button palette__effect__button-crop" type="button"></button>
+          <button class="button palette__effect__button-fill" type="button"></button>
+          <button class="button palette__effect__button-contrast" type="button"></button>
         </fieldset>
         <div class="palette__range">
           <div class="palette__range__scale">
           </div>
-          <button class="button palette__range-button" type="button"></button>
+          <button class="button palette__range-button palette__range-button-crop" type="button"></button>
+        </div>
+        <div class="palette__range">
+          <div class="palette__range__scale">
+          </div>
+          <button class="button palette__range-button palette__range-button-fill" type="button"></button>
+        </div>
+        <div class="palette__range">
+          <div class="palette__range__scale">
+          </div>
+          <button class="button palette__range-button palette__range-button-contrast" type="button"></button>
         </div>
         <div class="palette__button">
           <button class="button palette__form__submit" type="submit">Запостить</button>
