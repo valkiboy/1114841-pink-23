@@ -8,7 +8,7 @@
   height: 704px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/mobile-smile-mobile.png);
+  background-image: url("../img/mobile-smile-mobile.png");
   background-repeat: no-repeat;
   background-position: 62px 426px;
 }
@@ -19,11 +19,11 @@
   line-height: 28.8px;
   font-weight: 300;
   margin: 42px auto;
-  background-color: #fff;
+  background-color: $white;
   text-align: center;
 }
 
-.advantages__promo p+p {
+.advantages__promo p + p {
   margin-top: 30px;
   margin-bottom: 114px;
 }
@@ -32,7 +32,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .advantages__title {
