@@ -1,0 +1,55 @@
+.main-nav__logo {
+  display: block;
+  width: 74px;
+  height: 23px;
+  margin: 22px 226px 21px 20px;
+}
+
+.main-nav__top {
+  position: relative;
+  min-height: 66px;
+  width: 320px;
+  display: flex;
+  background-color: rgba($black, 0.3);
+}
+
+.main-nav__wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  background-color: $dark-blue;
+}
+
+.main-nav__item {
+  list-style: none;
+  width: 320px;
+  height: 63px;
+  text-align: center;
+}
+
+.main-nav__item a {
+  display: block;
+  width: 320px;
+  border-bottom: 1px solid $black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+  line-height: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.main-nav__pop-ap {
+  position: absolute;
+}

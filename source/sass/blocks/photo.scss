@@ -1,0 +1,68 @@
+.photo {
+  position: relative;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo__sticker {
+  position: absolute;
+  right: 10px;
+  width: 140px;
+  height: 36px;
+  background-color: $red;
+  color: $white;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.photo__sticker span {
+  display: block;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.photo__description {
+  background-color: $gray;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.photo__item {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo__header {
+  font-weight: 700;
+  padding-left: 17px;
+}
+
+.photo__header span {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.photo__description p {
+  width: 255px;
+  padding-left: 17px;
+}
+
+.photo__footer {
+  display: flex;
+}
+
+.photo__footer p {
+  padding: 0;
+  margin: 0;
+  margin-left: 18px;
+  padding-bottom: 26px;
+  color: $red;
+  text-transform: uppercase;
+}
