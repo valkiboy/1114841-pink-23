@@ -1,12 +1,13 @@
 .page-header {
   background-color: $black-blue;
   background-image: url("../img/back-mobile.png");
+  background-position: 0 255px;
   background-repeat: no-repeat;
   margin: 0 auto;
-  min-height: 733px;
+  min-height: 985px;
   min-width: 320px;
 }
 
 .page-header__form {
-  min-height: 237px;
+  min-height: 489px;
 }

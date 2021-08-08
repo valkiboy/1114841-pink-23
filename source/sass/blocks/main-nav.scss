@@ -10,7 +10,8 @@
   min-height: 66px;
   width: 320px;
   display: flex;
-  background-color: rgba($black, 0.3);
+  border-bottom: 1px solid $black;
+  // background-color: rgba($black, 0.3);
 }
 
 .main-nav__wrapper {
@@ -28,7 +29,9 @@
   width: 320px;
   height: 63px;
   text-align: center;
+  border-top: 1px solid $black;
   border-bottom: 1px solid $black;
+  box-shadow: 0px 1px 0px #000000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
 }
 
 .main-nav__item a {
@@ -50,5 +53,5 @@
 }
 
 .main-nav__pop-ap {
-  position: absolute;
+  // position: absolute;
 }
