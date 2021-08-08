@@ -1,3 +1,7 @@
+.rates {
+  background-color: $gray;
+}
+
 .rates__wrapper {
   min-width: 320px;
   margin-left: auto;
@@ -13,7 +17,14 @@
   margin-bottom: 35px;
 }
 
-.rates__row-1 {
+.rates__row {
+  height: 60px;
+  line-height: 30px;
+  text-transform: uppercase;
+  background-color: $white;
+}
+
+.rates__row--1 {
   height: 100px;
   background-color: $dark-blue;
   color: $white;
@@ -24,18 +35,7 @@
   padding: 0;
 }
 
-.rates__row-2,
-.rates__row-3,
-.rates__row-4 {
-  height: 60px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
-.rates__column-1,
-.rates__column-2,
-.rates__column-3,
-.rates__column-4 {
+.rates__column {
   width: 278px;
   border: 2px solid $light-grey;
   box-sizing: border-box;

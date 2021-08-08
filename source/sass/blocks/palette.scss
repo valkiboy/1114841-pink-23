@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.palette__image__label {
+.palette__image-label {
   position: absolute;
   width: 280px;
   height: 374px;
@@ -27,17 +27,24 @@
   margin-bottom: 39px;
 }
 
-.palette__effect__button-crop {
+.palette__effects-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+}
+
+.palette__effects-button--crop {
   width: 44px;
   height: 44px;
 }
 
-.palette__effect__button-fill {
+.palette__effects-button--fill {
   width: 48px;
   height: 43px;
 }
 
-.palette__effect__button-contrast {
+.palette__effects-button--contrast {
   width: 32px;
   height: 32px;
 }
@@ -47,7 +54,7 @@
   border-bottom: 1px solid rgba($dark-blue, 0.1);
 }
 
-.palette__range__scale {
+.palette__range-scale {
   width: 240px;
   height: 2px;
   background-color: $dark-blue;
@@ -69,14 +76,4 @@
   position: absolute;
   top: -5px;
   right: 73px;
-}
-
-.palette__form__submit {
-  color: $red;
-  border: 3px solid $red;
-}
-
-.palette__form__reset {
-  color: rgba($dark-blue, 0.1);
-  border: 3px solid rgba($dark-blue, 0.1);
 }

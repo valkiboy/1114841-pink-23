@@ -21,7 +21,6 @@
 .main-nav__list {
   margin: 0;
   padding: 0;
-  background-color: $dark-blue;
 }
 
 .main-nav__item {
@@ -29,12 +28,12 @@
   width: 320px;
   height: 63px;
   text-align: center;
+  border-bottom: 1px solid $black;
 }
 
 .main-nav__item a {
   display: block;
   width: 320px;
-  border-bottom: 1px solid $black;
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 18px;

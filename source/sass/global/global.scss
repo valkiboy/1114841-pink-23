@@ -1,30 +1,9 @@
-.page-body {
-  font-family: "open sans", "Arial", "Helvetica", sans-serif;
-  min-width: 320px;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: $dark-blue;
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: min-content 1fr min-content;
-  align-content: start;
-}
-
-.main-page {
-  background-color: $white;
-  min-width: 320px;
-}
-
 img {
   max-width: 100%;
 }
 
 a {
   text-decoration: none;
-  // color: $white;
 }
 
 .visually-hidden {
@@ -39,16 +18,3 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-// .button {
-//   text-align: center;
-//   vertical-align: middle;
-//   color: $white;
-//   border: 3px solid $white;
-//   cursor: pointer;
-//   word-break: break-all;
-//   box-sizing: border-box;
-//   border-radius: 30px;
-//   width: 280px;
-//   min-height: 55px;
-// }

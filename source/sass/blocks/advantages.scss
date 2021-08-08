@@ -1,5 +1,5 @@
 .advantages {
-  background-color: $gray;
+  background-image: linear-gradient(174deg, $white 20%, $gray 20%, $gray 80%);
 }
 
 .advantages__wrapper {
@@ -16,7 +16,7 @@
 .advantages__promo {
   width: 320px;
   font-size: 24px;
-  line-height: 28.8px;
+  line-height: 29px;
   font-weight: 300;
   margin: 42px auto;
   background-color: $white;

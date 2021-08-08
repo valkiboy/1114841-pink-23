@@ -1,10 +1,17 @@
-.modal-error {
+.modal {
   width: 320px;
-  height: 289px;
   text-align: center;
   background: $white;
   box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
   border-radius: 1px;
+}
+
+.modal--error {
+  height: 289px;
+}
+
+.modal--succes {
+  height: 380px;
 }
 
 .modal__title {
@@ -14,21 +21,12 @@
   margin-top: 44px;
 }
 
-.modal-succes {
-  width: 320px;
-  height: 380px;
-  text-align: center;
-  background: $white;
-  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
-  border-radius: 1px;
-}
-
 .modal__text {
   width: 280px;
   margin: 37px auto;
 }
 
-.modal__button__wrapper {
+.modal__button-wrapper {
   width: 320px;
   height: 110px;
   background-color: $gray;
