@@ -1,0 +1,40 @@
+.download ul {
+  list-style: none;
+}
+
+
+.download__wrapper {
+  text-align: center;
+  background-image: url("../img/phone-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 0 85px;
+}
+
+.download__title {
+  color: $white;
+  width: 280px;
+  margin: 24px 20px 344px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.download__list {
+  display: flex;
+  width: 204px;
+  min-height: 47px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 32px 58px 14px 58px;
+}
+
+.download__text {
+  color: $white;
+  width: 280px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 20px;
+}

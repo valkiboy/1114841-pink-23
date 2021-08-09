@@ -1,0 +1,19 @@
+.social__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 172px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+
+.social__link {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}

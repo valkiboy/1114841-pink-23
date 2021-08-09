@@ -1,0 +1,79 @@
+.palette {
+  width: 320px;
+  min-height: 757px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $gray;
+  position: relative;
+}
+
+.palette__image-label {
+  position: absolute;
+  width: 280px;
+  height: 374px;
+  background-image: url("../img/photo-7-mobile.jpg");
+  top: 20px;
+  left: 20px;
+}
+
+.palette__effects {
+  border: none;
+  padding-top: 436px;
+  display: flex;
+  align-items: center;
+  width: 192px;
+  justify-content: space-around;
+  margin-left: 57px;
+  margin-bottom: 39px;
+}
+
+.palette__effects-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+}
+
+.palette__effects-button--crop {
+  width: 44px;
+  height: 44px;
+}
+
+.palette__effects-button--fill {
+  width: 48px;
+  height: 43px;
+}
+
+.palette__effects-button--contrast {
+  width: 32px;
+  height: 32px;
+}
+
+.palette__range {
+  position: relative;
+  border-bottom: 1px solid rgba($dark-blue, 0.1);
+}
+
+.palette__range-scale {
+  width: 240px;
+  height: 2px;
+  background-color: $dark-blue;
+  margin-left: 40px;
+  margin-bottom: 34px;
+}
+
+.palette__button {
+  height: 163px;
+  text-align: center;
+  padding-top: 38px;
+}
+
+.palette__range-button {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid $red;
+  position: absolute;
+  top: -5px;
+  right: 73px;
+}

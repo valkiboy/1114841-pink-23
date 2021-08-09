@@ -1,0 +1,84 @@
+.main-form {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-form__group {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.main-form__wrapper {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+}
+
+.main-form__container {
+  padding-left: 10px;
+}
+
+.main-form__label {
+  display: block;
+  line-height: 30px;
+  color: $red;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.main-form__input {
+  width: 236px;
+  height: 56px;
+  border: 2px solid $light-grey;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-form__title {
+  width: 218px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: $red;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.main-form__label-checkbox {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.main-form__label-radio {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.main-form__message {
+  width: 276px;
+  height: 197px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.main-form__group-button {
+  text-align: center;
+}
+
+.main-form__remark {
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.main-form__remark sup {
+  color: $red;
+}

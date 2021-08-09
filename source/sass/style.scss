@@ -1,1 +1,36 @@
-// Начните писать стили здесь
+// Global
+
+@import "global/normalize.scss";
+@import "global/variables.scss";
+@import "global/global.scss";
+@import "global/fonts.scss";
+
+//Blocks
+
+@import "blocks/page-body.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-page.scss";
+@import "blocks/nav-wrapper.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/download.scss";
+@import "blocks/advantages.scss";
+@import "blocks/reviews.scss";
+@import "blocks/rates.scss";
+@import "blocks/contacts.scss";
+@import "blocks/map.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+@import "blocks/intro.scss";
+@import "blocks/promo.scss";
+@import "blocks/main-form.scss";
+@import "blocks/modal.scss";
+@import "blocks/button.scss";
+@import "blocks/button-form.scss";
+@import "blocks/button-heart.scss";
+@import "blocks/photo.scss";
+@import "blocks/conclusion.scss";
+@import "blocks/palette.scss";
+
+// body {
+//   background: #36789c;
+// }
