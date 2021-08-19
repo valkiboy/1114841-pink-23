@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+  .slider {
+    position: relative;
+  }
+
+  .slider__toggle--left {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .slider__toggle--right {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+  .slider__toggle--current {
+    display: none;
+  }
+
+  .slider__toggle-rates {
+    display: none;
+  }
+}

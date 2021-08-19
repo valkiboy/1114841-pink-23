@@ -1,5 +1,16 @@
 .advantages {
   background-image: linear-gradient(174deg, $white 20%, $gray 20%, $gray 80%);
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 660px) {
+    width: 660px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
 }
 
 .advantages__wrapper {
@@ -8,9 +19,27 @@
   height: 704px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../img/mobile-smile-mobile.png");
-  background-repeat: no-repeat;
-  background-position: 62px 426px;
+  // background-image: url("../img/mobile-smile-mobile.png");
+  // background-repeat: no-repeat;
+  // background-position: 62px 426px;
+
+  @media (min-width: 660px) {
+    text-align: left;
+    width: 310px;
+    margin-left: 330px;
+    margin-right: 20px;
+    height: 528px;
+    // background-image: url("../img/iphone-3-tablet.png");
+    // background-repeat: no-repeat;
+    // background-position: 62px 426px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 892px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .advantages__promo {
@@ -21,17 +50,46 @@
   margin: 42px auto;
   background-color: $white;
   text-align: center;
+
+  @media (min-width: 660px) {
+    width: 588px;
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 780px;
+    font-size: 50px;
+    line-height: 68px;
+  }
 }
 
 .advantages__promo p + p {
   margin-top: 30px;
   margin-bottom: 114px;
+
+  @media (min-width: 660px) {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 430px;
+    margin-bottom: 432px;
+  }
 }
 
 .advantages__list {
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
 }
 
 .advantages__title {
@@ -41,9 +99,25 @@
   color: $black;
   margin: 0;
   margin-bottom: 12px;
+
+  @media (min-width: 1200px) {
+    width: 240px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .advantages__text {
   margin: 0;
   margin-bottom: 31px;
+
+  @media (min-width: 1200px) {
+    width: 248px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

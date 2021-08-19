@@ -1,0 +1,56 @@
+.diagram {
+  display: none;
+
+  @media (min-width: 660px) {
+    width: 660px;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.diagram__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+
+  @media (min-width: 1200px) {
+    line-height: 30px;
+  }
+}
+
+.diagram__wrapper {
+  width: 310px;
+  margin-left: 330px;
+  margin-right: 20px;
+
+  @media (min-width: 1200px) {
+    width: 534px;
+    margin-left: 500px;
+    margin-right: 166px;
+    margin-bottom: 313px;
+  }
+}
+
+.diagram__text {
+  @media (min-width: 1200px) {
+    width: 457px;
+  }
+}
+
+.diagram__text-info {
+  @media (min-width: 1200px) {
+    width: 400px;
+    padding-right: 76px;
+  }
+}
+
+.diagram__wrapper a {
+  text-decoration: underline;
+  color: $red;
+}
