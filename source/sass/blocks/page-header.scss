@@ -3,17 +3,16 @@
   background-image: url("../img/back-mobile.png");
   background-position: 0 255px;
   background-repeat: no-repeat;
-  margin: 0 auto;
   height: 985px;
   min-width: 320px;
 
-  @media (min-width: 660px) {
-    width: 660px;
+  @media (min-width: 620px) {
+    min-width: 620px;
     background-image: url("../img/back-tablet.png");
   }
 
-  @media (min-width: 1200px) {
-    width: 1200px;
+  @media (min-width: 940px) {
+    min-width: 940px;
     height: 853px;
     background-image: url("../img/back-desktop.png");
     background-position: 50% 0;

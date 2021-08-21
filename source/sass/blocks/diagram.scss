@@ -1,15 +1,15 @@
 .diagram {
   display: none;
 
-  @media (min-width: 660px) {
-    width: 660px;
+  @media (min-width: 620px) {
+    width: 620px;
     display: block;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 940px) {
     width: 1200px;
   }
 }
@@ -19,7 +19,7 @@
   line-height: 36px;
   font-weight: 700;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 940px) {
     line-height: 30px;
   }
 }
@@ -29,7 +29,7 @@
   margin-left: 330px;
   margin-right: 20px;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 940px) {
     width: 534px;
     margin-left: 500px;
     margin-right: 166px;
@@ -38,13 +38,13 @@
 }
 
 .diagram__text {
-  @media (min-width: 1200px) {
+  @media (min-width: 940px) {
     width: 457px;
   }
 }
 
 .diagram__text-info {
-  @media (min-width: 1200px) {
+  @media (min-width: 940px) {
     width: 400px;
     padding-right: 76px;
   }

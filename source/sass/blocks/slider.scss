@@ -1,21 +1,21 @@
 @media (min-width: 1200px) {
-  .slider {
+  .slider__toggles {
     position: relative;
   }
 
   .slider__toggle--left {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: -200px;
+    left: -100px;
   }
 
   .slider__toggle--right {
     position: absolute;
-    top: 50px;
-    right: 50px;
+    top: -200px;
+    right: -100px;
   }
 
-  .slider__toggle--current {
+  .slider__toggle--middle {
     display: none;
   }
 
