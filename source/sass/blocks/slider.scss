@@ -1,3 +1,9 @@
+@media (min-width: 620px) {
+  .slider__toggle-rates {
+    display: none;
+ }
+}
+
 @media (min-width: 1200px) {
   .slider__toggles {
     position: relative;
@@ -19,7 +25,4 @@
     display: none;
   }
 
-  .slider__toggle-rates {
-    display: none;
-  }
 }
