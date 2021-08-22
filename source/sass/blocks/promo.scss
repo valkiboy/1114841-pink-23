@@ -1,7 +1,16 @@
-.promo {
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+.main-page .promo {
+  // width: 280px;
+  // margin-left: auto;
+  // margin-right: auto;
+
+  // @media (min-width: 620px) {
+  //   min-width: 620px;
+  // }
+
+  @media (min-width: 940px) {
+    width: 940px;
+    padding: 0;
+  }
 }
 
 .promo__text {
@@ -11,6 +20,15 @@
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: 620px) {
+    width: 490px;
+    font-size: 18px;
+  }
+
+  @media (min-width: 940px) {
+    width: 756px;
+  }
 }
 
 .promo__phrase {
@@ -19,4 +37,13 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: 620px) {
+    width: 490px;
+    font-size: 18px;
+  }
+
+  @media (min-width: 940px) {
+    width: 572px;
+  }
 }

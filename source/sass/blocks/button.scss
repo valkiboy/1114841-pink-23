@@ -30,6 +30,14 @@
 .button--palette-form {
   border-radius: 30px;
   margin-bottom: 12px;
+
+  @media (min-width: 620px) {
+    width: 260px;
+  }
+
+  @media (min-width: 940px) {
+    width: 183px;
+  }
 }
 
 .button--palette-form-submit {

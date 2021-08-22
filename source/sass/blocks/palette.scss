@@ -5,6 +5,16 @@
   margin-right: auto;
   background-color: $gray;
   position: relative;
+
+  @media (min-width: 620px) {
+    min-width: 620px;
+    min-height: 511px;
+  }
+
+  @media (min-width: 940px) {
+    min-height: 514px;
+    width: 940px;
+  }
 }
 
 .palette__image-label {
@@ -14,6 +24,30 @@
   background-image: url("../img/photo-7-mobile.jpg");
   top: 20px;
   left: 20px;
+
+  @media (min-width: 620px) {
+    width: 300px;
+    height: 400px;
+  }
+
+  // @media (min-width: 940px) {
+  //   min-width: 940px;
+  // }
+}
+
+.palette__effects-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 620px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+
+  @media (min-width: 940px) {
+    // min-width: 940px;
+  }
 }
 
 .palette__effects {
@@ -25,6 +59,19 @@
   justify-content: space-around;
   margin-left: 57px;
   margin-bottom: 39px;
+
+  @media (min-width: 620px) {
+    flex-direction: column;
+    min-height: 150px;
+    padding-top: 5px;
+    margin-left: 300px;
+    width: 50px;
+    height: 200px;
+  }
+
+  @media (min-width: 940px) {
+    margin-left: 400px;
+  }
 }
 
 .palette__effects-button {
@@ -37,21 +84,69 @@
 .palette__effects-button--crop {
   width: 44px;
   height: 44px;
+
+  @media (min-width: 620px) {
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (min-width: 940px) {
+    width: 44px;
+    height: 44px;
+  }
 }
 
 .palette__effects-button--fill {
   width: 48px;
   height: 43px;
+
+  @media (min-width: 620px) {
+    width: 24px;
+    height: 22px;
+  }
+
+  @media (min-width: 940px) {
+    width: 48px;
+    height: 43px;
+  }
 }
 
 .palette__effects-button--contrast {
   width: 32px;
   height: 32px;
+
+  @media (min-width: 620px) {
+    width: 16px;
+    height: 16px;
+  }
+
+  @media (min-width: 940px) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.palette__range-wrapper {
+  @media (min-width: 620px) {
+    padding-top: 10px;
+  }
+
+  @media (min-width: 940px) {
+    // min-width: 940px;
+  }
 }
 
 .palette__range {
   position: relative;
   border-bottom: 1px solid rgba($dark-blue, 0.1);
+}
+
+.palette__range--upload {
+  display: none;
+
+  @media (min-width: 620px) {
+    display: block;
+  }
 }
 
 .palette__range-scale {
@@ -60,12 +155,35 @@
   background-color: $dark-blue;
   margin-left: 40px;
   margin-bottom: 34px;
+
+  @media (min-width: 620px) {
+    width: 202px;
+    margin-top: 34px;
+    margin-left: 0;
+  }
+
+  @media (min-width: 940px) {
+    width: 288px;
+  }
 }
 
 .palette__button {
   height: 163px;
   text-align: center;
   padding-top: 38px;
+
+  @media (min-width: 620px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 330px;
+  }
+
+  @media (min-width: 940px) {
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 400px;
+  }
 }
 
 .palette__range-button {

@@ -1,1 +1,9 @@
 background-color: rgb(124, 189, 226);
+
+@media (min-width: 620px) {
+    min-width: 620px;
+  }
+
+  @media (min-width: 940px) {
+    min-width: 940px;
+  }

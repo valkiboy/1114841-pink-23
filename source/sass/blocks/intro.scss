@@ -9,4 +9,31 @@
   margin: 0;
   padding-left: 48px;
   padding-top: 30px;
+
+  @media (min-width: 620px) {
+    width: 620px;
+    min-height: 175px;
+    font-size: 50px;
+    line-height: 68px;
+    padding: 0;
+  }
+
+  @media (min-width: 940px) {
+    width: 747px;
+    min-height: 106px;
+    font-size: 50px;
+    line-height: 68px;
+  }
+}
+
+.intro__title--foto {
+  @media (min-width: 620px) {
+    width: 358px;
+    min-height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // @media (min-width: 940px) {
+  // }
 }
