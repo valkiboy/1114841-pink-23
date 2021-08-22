@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Пинк</title>
   <link href="css/style.css" rel="stylesheet" />
 </head>
@@ -11,7 +12,7 @@
   <header class="page-header">
     <div class="nav-wrapper">
       <nav class="main-nav">
-        <div class="main-nav__top">
+        <div class="main-nav__logo-wrapper">
           <a href="" class="main-nav__logo">
             <svg width="74" height="23" viewBox="0 0 74 23" fill="white" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -24,30 +25,27 @@
                 d="M55.9384 1.38904C55.9228 1.21262 55.944 1.03487 56.0005 0.867114C56.0571 0.699353 56.1479 0.545245 56.267 0.414596C56.3862 0.283947 56.5311 0.179616 56.6926 0.108238C56.8541 0.0368607 57.0286 0 57.2051 0C57.3815 0 57.5561 0.0368607 57.7176 0.108238C57.8791 0.179616 58.024 0.283947 58.1431 0.414596C58.2623 0.545245 58.353 0.699353 58.4096 0.867114C58.4662 1.03487 58.4874 1.21262 58.4718 1.38904V13.6837L71.2282 0.551443C71.4899 0.279712 71.8455 0.119105 72.2216 0.10273C72.5468 0.115453 72.8548 0.252812 73.0821 0.486531C73.3094 0.72025 73.4388 1.03254 73.4436 1.35912C73.4366 1.52896 73.3961 1.69572 73.3245 1.84975C73.2529 2.00379 73.1516 2.14205 73.0264 2.25655L65.0785 10.1539L73.6523 20.6836C73.8764 20.9441 73.9998 21.2768 74 21.6209C73.9961 21.7933 73.9583 21.9633 73.8887 22.121C73.8191 22.2786 73.719 22.4209 73.5943 22.5395C73.4696 22.6582 73.3228 22.7509 73.1622 22.8123C73.0016 22.8737 72.8305 22.9026 72.6588 22.8973C72.4588 22.8891 72.2639 22.8322 72.0908 22.7314C71.9177 22.6306 71.7716 22.4891 71.6653 22.3189L63.3001 11.859L58.4718 16.7051V21.591C58.4718 21.7573 58.4391 21.922 58.3757 22.0756C58.3123 22.2293 58.2194 22.3689 58.1022 22.4865C57.9851 22.6041 57.846 22.6973 57.6929 22.761C57.5398 22.8246 57.3757 22.8574 57.21 22.8574C57.0443 22.8574 56.8803 22.8246 56.7272 22.761C56.5741 22.6973 56.435 22.6041 56.3179 22.4865C56.2007 22.3689 56.1078 22.2293 56.0443 22.0756C55.9809 21.922 55.9483 21.7573 55.9483 21.591V1.38904H55.9384Z" />
             </svg>
           </a>
-          <button class="main-nav__toggle visually-hidden" type="button"><span class="visually-hidden">Открыть меню</span></button>
+          <button class="main-nav__toggle visually-hidden" type="button"><span class="visually-hidden">Открыть
+              меню</span></button>
         </div>
-        <div class="main-nav__pop-ap">
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a>Главная</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="catalog.html">Фотография</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="form.html">Конкурс</a>
-              </li>
-              <li class="main-nav__item">
-                <a>Html academy</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="catalog.html">Фотография</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__item">
+            <a>HTML Academy</a>
+          </li>
+        </ul>
       </nav>
     </div>
     <section class="download">
-      <div class="download__wrapper">
+      <div class="download__wrapper wrapper">
         <h1 class="download__title">Взгляните на жизнь иначе!</h1>
         <a class="button button--download" href="https://www.apple.com/ru/app-store/">Скачать приложение</a>
         <ul class="download__list">
@@ -98,92 +96,159 @@
         </ul>
       </div>
     </section>
+    <section class="diagram">
+      <div class="diagram__wrapper">
+        <h2 class="visually-hidden">Выводы британских ученых</h2>
+        <h3 class="diagram__title">Эффект на 24 часа!</h3>
+        <p class="diagram__text"><span class="diagram__text-info">Британские ученые провели исследования и
+            доказали,</span> что
+          положительный эффект от использования приложения длится целые сутки!</p>
+        <a href="index.html">Узнать больше об исследовании</a>
+      </div>
+    </section>
     <section class="reviews">
       <h2 class="visually-hidden">Отзывы о нас</h2>
       <div class="reviews__wrapper slider">
         <div class="reviews__list slider__list">
           <blockquote class="reviews__item slider__item">
-            <div class="reviews__autor-info">
-              <cite class="reviews__author-name">Николай Петров</cite>
+            <div class="reviews__autor-info wrapper">
+              <cite class="reviews__author-name">Николай Петров <span class="reviews__autor-data">25 лет, водитель
+                  трамвая</span></cite>
               <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
                 серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </div>
           </blockquote>
-          <blockquote class="reviews__item slider__item visually-hidden">
+          <blockquote class="reviews__item slider__item wrapper visually-hidden">
             <div class="reviews__autor-info">
-              <cite class="reviews__author-name">Николай Петров</cite>
+              <cite class="reviews__author-name">Николай Петров <span class="reviews__autor-data">25 лет, водитель
+                  трамвая</span></cite>
               <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
                 серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </div>
           </blockquote>
-          <blockquote class="reviews__item slider__item visually-hidden">
+          <blockquote class="reviews__item slider__item wrapper visually-hidden">
             <div class="reviews__autor-info">
-              <cite class="reviews__author-name">Николай Петров</cite>
+              <cite class="reviews__author-name">Николай Петров <span class="reviews__autor-data">25 лет, водитель
+                  трамвая</span></cite>
               <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные
                 серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </div>
           </blockquote>
         </div>
-        <p class="reviews__toggles slider__toggles">
-          <button class="slider__toggle slider__toggle--current" type="button">1</button>
-          <button class="slider__toggle" type="button">2</button>
-          <button class="slider__toggle" type="button">3</button>
+        <p class="reviews__toggles slider__toggles wrapper">
+          <button class="slider__toggle slider__toggle--current slider__toggle--left" type="button">1</button>
+          <button class="slider__toggle slider__toggle--middle" type="button">2</button>
+          <button class="slider__toggle slider__toggle--right" type="button">3</button>
         </p>
       </div>
     </section>
     <section class="rates slider">
       <h2 class="visually-hidden">Стоимость приложения</h2>
       <div class="rates__wrapper">
-        <table class="rates__list">
+        <table class="rates__list rates__table">
           <tr class="rates__row rates__row--1">
-            <th class="rates__column rates__column--11"></th>
-            <th class="rates__column rates__column--21"><span class="rates__name">База</span><span
+            <th class="rates__column rates__column-header"></th>
+            <th class="rates__column rates__column-header"><span class="rates__name">База</span><span
                 class="rates__price">1,99 usd</span>
             </th>
-            <th class="rates__column rates__column--31"><span class="rates__name">Стандарт</span><span
+            <th class="rates__column rates__column-header"><span class="rates__name">Стандарт</span><span
                 class="rates__price">3,99
                 usd</span>
             </th>
-            <th class="rates__column rates__column--41"><span class="rates__name">Анлим</span><span
+            <th class="rates__column rates__column-header"><span class="rates__name">Анлим</span><span
                 class="rates__price">9,99 usd</span>
             </th>
           </tr>
-          <tr class="rates__row rates__row--2">
-            <td class="rates__column rates__column--12">Розовый фильтр</td>
-            <td class="rates__column rates__column--22">Розовый фильтр</td>
-            <td class="rates__column rates__column--32">Розовый фильтр</td>
-            <td class="rates__column rates__column--42">Розовый фильтр</td>
+          <tr class="rates__row rates__row--2 ">
+            <td class="rates__column rates__column-cell">Розовый фильтр</td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Розовый фильтр">
+                <span class="rates__feature-value rates__feature-value--true">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </div>
+            </td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Розовый фильтр">
+                <span class="rates__feature-value rates__feature-value--true">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </div>
+            </td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Розовый фильтр">
+                <span class="rates__feature-value rates__feature-value--true">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </div>
+            </td>
           </tr>
           <tr class="rates__row rates__row--3">
-            <td class="rates__column rates__column--13">Смайлики</td>
-            <td class="rates__column rates__column--23">Смайлики</td>
-            <td class="rates__column rates__column--33">Смайлики</td>
-            <td class="rates__column rates__column--43">Смайлики</td>
+            <td class="rates__column rates__column-cell">Смайлики</td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Смайлики">
+                <span class="rates__feature-value rates__feature-value--false">
+                  <span class="visually-hidden">Нет</span>
+                </span>
+              </div>
+            </td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Смайлики">
+                <span class="rates__feature-value rates__feature-value--true">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </div>
+            </td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Смайлики">
+                <span class="rates__feature-value rates__feature-value--true">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </div>
+            </td>
           </tr>
           <tr class="rates__row rates__row--4">
-            <td class="rates__column rates__column--14">Комментарии</td>
-            <td class="rates__column rates__column--24">Комментарии</td>
-            <td class="rates__column rates__column--34">Комментарии</td>
-            <td class="rates__column rates__column--44">Комментарии</td>
+            <td class="rates__column rates__column-cell">Комментарии</td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Комментарии">
+                <span class="rates__feature-value rates__feature-value--false">
+                  <span class="visually-hidden">Нет</span>
+                </span>
+              </div>
+            </td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Комментарии">
+                <span class="rates__feature-value rates__feature-value--false">
+                  <span class="visually-hidden">Нет</span>
+                </span>
+              </div>
+            </td>
+            <td class="rates__column rates__column-cell">
+              <div class="rates__feature" data-feature-name="Комментарии">
+                <span class="rates__feature-value rates__feature-value--true">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </div>
+            </td>
           </tr>
         </table>
         <div class="rates__toggles slider__toggles">
-          <button class="slider__toggle" type="button">1</button>
-          <button class="slider__toggle slider__toggle--current" type="button">2</button>
-          <button class="slider__toggle" type="button">3</button>
+          <button class="slider__toggle-rates" type="button">1</button>
+          <button class="slider__toggle-rates slider__toggle-rates--current" type="button">2</button>
+          <button class="slider__toggle-rates" type="button">3</button>
         </div>
       </div>
     </section>
     <section class="contacts">
       <h2 class="visually-hidden">Контакты для связи</h2>
+      <p class="contacts__title">Остались вопросы?</p>
+      <p class="contacts__title">Свяжитесь с нами!</p>
       <div class="contacts__wrapper">
-        <p class="contacts__title">Остались вопросы?</p>
-        <p class="contacts__title">Свяжитесь с нами!</p>
         <div class="contacts__item">
           <b class="contacts__item-title">Звоните:</b>
           <a class="contacts__link" href="tel:+78125556666">+7(812) 555-66-66</a>
         </div>
-        <div class="contacts__item">
+        <div class="contacts__item contacts__item--writing">
           <b class="contacts__item-title">Пишите:</b>
           <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </div>
@@ -195,7 +260,7 @@
     </section>
     <div class="map">
       <div class="map__wrapper">
-        <iframe src="https://yandex.ru/map-widget/v1/-/CCUi48uNpA" width="320" height="200"
+        <iframe src="https://yandex.ru/map-widget/v1/-/CCUi48uNpA" width="100%" height="100%"
           style="position: relative;"></iframe>
       </div>
     </div>
