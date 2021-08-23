@@ -1,19 +1,17 @@
 .photo {
-  position: relative;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 280px;
+  min-width: 280px;
+}
+
+.photo__item-panorama {
+  position: relative;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 620px) {
-    width: 620px;
-  }
-
   @media (min-width: 940px) {
-    width: 940px;
+    max-width: 1200px;
   }
 }
 
@@ -27,13 +25,16 @@
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
-}
-
-.photo__sticker span {
   display: block;
   padding-top: 6px;
   text-align: center;
 }
+
+// .photo__sticker span {
+//   display: block;
+//   padding-top: 6px;
+//   text-align: center;
+// }
 
 .photo__description {
   background-color: $gray;
@@ -62,10 +63,20 @@
 }
 
 .photo__wrapper {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 620px) {
+    width: 620px;
+  }
+
+  @media (min-width: 940px) {
+    width: 940px;
+  }
 }
 
 .photo__item {
