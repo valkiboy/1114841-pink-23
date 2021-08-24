@@ -1,10 +1,18 @@
 .photo {
-  position: relative;
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
+  min-width: 280px;
+}
+
+.photo__item-panorama {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 940px) {
+    max-width: 1200px;
+  }
 }
 
 .photo__sticker {
@@ -17,13 +25,16 @@
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
-}
-
-.photo__sticker span {
   display: block;
   padding-top: 6px;
   text-align: center;
 }
+
+// .photo__sticker span {
+//   display: block;
+//   padding-top: 6px;
+//   text-align: center;
+// }
 
 .photo__description {
   background-color: $gray;
@@ -31,12 +42,51 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+
+  @media (min-width: 620px) {
+    width: 300px;
+  }
+}
+
+.photo__description--panorama {
+  @media (min-width: 620px) {
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (min-width: 940px) {
+    width: 940px;
+  }
+}
+
+.photo__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 620px) {
+    width: 620px;
+  }
+
+  @media (min-width: 940px) {
+    width: 940px;
+  }
 }
 
 .photo__item {
   width: 280px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: 620px) {
+    width: 300px;
+  }
 }
 
 .photo__header {
@@ -52,17 +102,39 @@
 .photo__description p {
   width: 255px;
   padding-left: 17px;
+
+  @media (min-width: 620px) {
+    width: 246px;
+  }
+}
+
+.photo__description--panorama p {
+  @media (min-width: 620px) {
+    order: 1;
+    width: 520px;
+  }
+
+  @media (min-width: 940px) {
+    width: 874px;
+  }
 }
 
 .photo__footer {
   display: flex;
+  width: 200px;
+  margin: 0 0 0 17px;
+
+  @media (min-width: 620px) {
+    flex-direction: row-reverse;
+  }
 }
 
 .photo__footer p {
   padding: 0;
   margin: 0;
-  margin-left: 18px;
+  padding-left: 18px;
   padding-bottom: 26px;
   color: $red;
   text-transform: uppercase;
+  font-size: 12px;
 }

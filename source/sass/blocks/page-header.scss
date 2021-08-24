@@ -3,7 +3,7 @@
   background-image: url("../img/back-mobile.png");
   background-position: 0 255px;
   background-repeat: no-repeat;
-  height: 985px;
+  min-height: 985px;
   min-width: 320px;
 
   @media (min-width: 620px) {
@@ -13,13 +13,21 @@
 
   @media (min-width: 940px) {
     min-width: 940px;
-    height: 853px;
+    min-height: 853px;
     background-image: url("../img/back-desktop.png");
     background-position: 50% 0;
     background-size: 1200px 853px;
   }
 }
 
-.page-header__form {
+.page-header--form {
   min-height: 489px;
+
+  @media (min-width: 620px) {
+    min-height: 705px;
+  }
+
+  @media (min-width: 940px) {
+    min-height: 384px;
+  }
 }
