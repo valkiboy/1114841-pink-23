@@ -15,31 +15,45 @@
 }
 
 .diagram__title {
+  margin: 0;
+  padding-top: 97px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  width: 170px;
 
   @media (min-width: 940px) {
     line-height: 30px;
+    padding-top: 115px;
+    width: 300px;
   }
 }
 
 .diagram__wrapper {
   width: 310px;
-  margin-left: 330px;
+  margin-left: 310px;
   margin-right: 20px;
 
   @media (min-width: 940px) {
     width: 534px;
     margin-left: 500px;
     margin-right: 166px;
-    margin-bottom: 313px;
+    margin-bottom: 215px;
   }
 }
 
 .diagram__text {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+
   @media (min-width: 940px) {
-    width: 457px;
+    width: 575px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 25px;
+    margin-bottom: 20px;
   }
 }
 
@@ -53,4 +67,9 @@
 .diagram__wrapper a {
   text-decoration: underline;
   color: $red;
+
+  @media (min-width: 940px) {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

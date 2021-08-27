@@ -4,13 +4,15 @@
 
 .reviews__wrapper {
   min-width: 320px;
-  height: 402px;
+  min-height: 402px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 41px;
   background-image: linear-gradient(177deg, $white 80%, $gray 80%, $gray 20%);
 
   @media (min-width: 620px) {
     min-width: 620px;
+    padding-top: 81px;
+    min-height: 330px;
   }
 
   @media (min-width: 940px) {
@@ -18,11 +20,10 @@
   }
 }
 
-.reviews__autor-info {
+.reviews .reviews__autor-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 21px;
   margin-bottom: 25px;
 
   @media (min-width: 620px) {
@@ -31,24 +32,23 @@
 
   @media (min-width: 940px) {
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
 .reviews__author-name {
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
   margin-bottom: 13px;
   color: $black;
   width: 175px;
-  padding: 0 100px;
+  padding: 0 10px;
 
   @media (min-width: 620px) {
     order: 2;
+    font-size: 20px;
   }
 
   @media (min-width: 940px) {
@@ -79,8 +79,9 @@
   line-height: 30px;
 
   @media (min-width: 620px) {
-    width: 500px;
-    margin-bottom: 51px;
+    width: 620px;
+    margin-bottom: 36px;
+    font-size: 18px;
   }
 
   @media (min-width: 940px) {
