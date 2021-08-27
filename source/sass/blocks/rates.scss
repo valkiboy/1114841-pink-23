@@ -94,7 +94,6 @@
   clip-path: polygon(26% 0%, 80% 0%, 100% 100%, 4% 100%);
   background-color: $red;
   transform: rotate(-45deg);
-
 }
 
 .rates__name {
@@ -105,9 +104,8 @@
     // padding-top: 10px;
   }
 
-  @media (min-width: 940px) {
-
-  }
+  // @media (min-width: 940px) {
+  // }
 }
 
 .rates__price {
@@ -116,9 +114,8 @@
   font-size: 18px;
   padding-bottom: 26px;
 
-  @media (min-width: 620px) {
-
-  }
+  // @media (min-width: 620px) {
+  // }
 
   @media (min-width: 940px) {
     font-size: 24px;
