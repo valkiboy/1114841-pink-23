@@ -1,5 +1,5 @@
 .contacts__wrapper {
-  min-width: 320px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -7,12 +7,12 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  @media (min-width: 620px) {
-    min-width: 620px;
+  @media (min-width: 660px) {
+    width: 620px;
     justify-content: space-around;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 940px;
     justify-content: space-around;
     padding-left: 20px;
@@ -27,7 +27,7 @@
   font-weight: 300;
   padding-top: 80px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 370px;
     padding-top: 51px;
     font-size: 40px;
@@ -35,7 +35,7 @@
     font-weight: 300;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 462px;
     font-size: 50px;
     line-height: 68px;
@@ -49,7 +49,7 @@
   margin-bottom: 32px;
   padding-left: 15px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     padding-left: 23px;
   }
 }
@@ -58,7 +58,7 @@
   font-size: 18px;
   line-height: 25px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     // padding-left: 31px;
   }
 }
@@ -70,7 +70,7 @@
   font-weight: 300;
   color: $red;
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     padding-top: 20px;
   }
 }
@@ -78,32 +78,32 @@
 .contacts__item {
   margin-bottom: 17px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     padding-left: 20px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     padding-top: 6px;
   }
 }
 
 .contacts__item--writing {
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     padding-left: 4px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     order: 3;
   }
 }
 
 .contacts__item--guests {
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     padding-top: 28px;
     padding-left: 0;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     padding-top: 6px;
     padding-left: 19px;
   }
@@ -118,7 +118,7 @@
   padding-left: 0;
   margin: 0;
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     padding-top: 20px;
   }
 }

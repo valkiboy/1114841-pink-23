@@ -2,26 +2,36 @@
   list-style: none;
 }
 
+.download {
+  @media (min-width: 660px) {
+    padding-top: 71px;
+  }
+}
+
+.page-header--open .download {
+  padding-top: 66px;
+
+  @media (min-width: 660px) {
+    padding-top: 180px;
+  }
+}
 
 .download .download__wrapper {
   text-align: center;
   background-image: url("../img/phone-mobile.png");
   background-repeat: no-repeat;
   background-position: 0 85px;
-  margin-top: 89px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 620px;
     height: 524px;
     background-image: url("../img/phone-tablet.png");
     background-repeat: no-repeat;
     background-position: 0 171px;
-    margin-top: 204px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 940px;
-    margin-top: 209px;
   }
 }
 
@@ -33,7 +43,7 @@
   font-weight: 300;
   line-height: 29px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     font-size: 40px;
     line-height: 48px;
     width: 230px;
@@ -41,7 +51,7 @@
     padding-left: 34px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     padding-left: 0;
     font-size: 50px;
     line-height: 68px;
@@ -59,12 +69,12 @@
   padding: 0;
   margin: 32px auto 14px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     margin-left: 46px;
     margin-top: 46px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     margin-top: 67px;
   }
 }
@@ -76,14 +86,14 @@
   margin: 0;
 
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     font-size: 18px;
     font-weight: 300;
     width: 300px;
     padding-top: 12px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     padding-top: 30px;
   }
 }

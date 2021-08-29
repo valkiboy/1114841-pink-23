@@ -10,7 +10,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     max-width: 1200px;
   }
 }
@@ -43,13 +43,13 @@
   margin-right: auto;
   margin-bottom: 20px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 300px;
   }
 }
 
 .photo__description--panorama {
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 620px;
     display: flex;
     flex-direction: row;
@@ -57,7 +57,7 @@
     justify-content: center;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 940px;
   }
 }
@@ -70,11 +70,11 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 620px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 940px;
   }
 }
@@ -84,7 +84,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 300px;
   }
 }
@@ -103,18 +103,18 @@
   width: 255px;
   padding-left: 17px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 246px;
   }
 }
 
 .photo__description--panorama p {
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     order: 1;
     width: 520px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 874px;
   }
 }
@@ -124,7 +124,7 @@
   width: 200px;
   margin: 0 0 0 17px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     flex-direction: row-reverse;
   }
 }

@@ -9,13 +9,13 @@
   margin-top: 41px;
   background-image: linear-gradient(177deg, $white 80%, $gray 80%, $gray 20%);
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     min-width: 620px;
     padding-top: 81px;
     min-height: 330px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     min-width: 900px;
   }
 }
@@ -26,11 +26,11 @@
   justify-content: center;
   margin-bottom: 25px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 620px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 800px;
   }
 }
@@ -46,12 +46,12 @@
   width: 175px;
   padding: 0 10px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     order: 2;
     font-size: 20px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     font-size: 24px;
     width: 224px;
   }
@@ -60,14 +60,14 @@
 .reviews__autor-data {
   display: none;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     font-size: 18px;
   }
 }
@@ -78,13 +78,13 @@
   margin: 0;
   line-height: 30px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     width: 620px;
     margin-bottom: 36px;
     font-size: 18px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 695px;
     font-size: 18px;
   }

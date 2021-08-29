@@ -2,19 +2,19 @@
 .page-footer__wrapper {
   display: flex;
   justify-content: center;
-  min-width: 320px;
+  width: 320px;
   flex-wrap: wrap;
   background-color: $white;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 620px) {
-    min-width: 620px;
+  @media (min-width: 660px) {
+    width: 620px;
     justify-content: space-between;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     width: 940px;
     justify-content: space-between;
   }
@@ -30,7 +30,7 @@
   width: 150px;
   line-height: 18px;
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     font-size: 18px;
   }
 }

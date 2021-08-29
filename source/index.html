@@ -9,9 +9,9 @@
 </head>
 
 <body class="page-body">
-  <header class="page-header page-header--nojs">
-    <div class="nav-wrapper  nav-wrapper--nojs nav-wrapper--closed">
-      <nav class="main-nav  main-nav--nojs main-nav--closed">
+  <header class="page-header">
+    <div class="nav-wrapper">
+      <nav class="main-nav">
         <div class="main-nav__logo-wrapper">
           <a href="" class="main-nav__logo">
             <svg width="74" height="23" viewBox="0 0 74 23" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +152,7 @@
             </th>
             <th class="rates__column rates__column-header rates__column-header--hit"><span class="rates__name">Стандарт</span><span
                 class="rates__price">3,99
-                usd</span><span class="rates__column-header--hit-stiker">Хит</span>
+                usd</span><span class="rates__column-stiker">Хит</span>
             </th>
             <th class="rates__column rates__column-header"><span class="rates__name">Анлим</span><span
                 class="rates__price">9,99 usd</span>
@@ -259,7 +259,7 @@
     </section>
     <div class="map">
       <div class="map__wrapper">
-        <iframe src="https://yandex.ru/map-widget/v1/-/CCUi48uNpA" width="100%" height="100%"
+        <iframe src="https://yandex.ru/map-widget/v1/-/CCUi48uNpA" width="320" height="200"
           style="position: relative;"></iframe>
       </div>
     </div>
@@ -317,25 +317,17 @@
 
   <script>
     var pageHeader = document.querySelector('.page-header');
-    var navWrapp = document.querySelector('.nav-wrapper');
-    var navMain = document.querySelector('.main-nav');
     var navToggle = document.querySelector('.main-nav__toggle');
 
-    pageHeader.classList.remove('page-header--nojs');
-    navWrapp.classList.remove('nav-wrapper--nojs');
-    navMain.classList.remove('main-nav--nojs');
+    pageHeader.classList.add('page-header--closed');
 
     navToggle.addEventListener('click', function() {
-      if (navMain.classList.contains('main-nav--closed')) {
-        navWrapp.classList.remove('nav-wrapper--closed');
-        navMain.classList.remove('main-nav--closed');
-        navWrapp.classList.add('nav-wrapper--open');
-        navMain.classList.add('main-nav--open');
+      if (pageHeader.classList.contains('page-header--closed')) {
+        pageHeader.classList.remove('page-header--closed');
+        pageHeader.classList.add('page-header--open');
       } else {
-        navWrapp.classList.add('nav-wrapper--closed');
-        navMain.classList.add('main-nav--closed');
-        navWrapp.classList.remove('nav-wrapper--open');
-        navMain.classList.remove('main-nav--open');
+        pageHeader.classList.add('page-header--closed');
+        pageHeader.classList.remove('page-header--open');
       }
     });
   </script>
