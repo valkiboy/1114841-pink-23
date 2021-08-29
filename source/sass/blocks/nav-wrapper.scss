@@ -1,7 +1,19 @@
 .nav-wrapper {
+  width: 100%;
   background-color: $dark-blue;
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     background-color: rgba($black, 0.3);
   }
+}
+
+.page-header--open .nav-wrapper {
+  @media (max-width: 1199px) {
+    background-color: $dark-blue;
+    position: absolute;
+  }
+}
+
+.page-header--closed .nav-wrapper {
+  background-color: rgba($black, 0.3);
 }

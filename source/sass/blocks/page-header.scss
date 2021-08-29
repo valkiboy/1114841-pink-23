@@ -6,12 +6,13 @@
   min-height: 985px;
   min-width: 320px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     min-width: 620px;
+    min-height: 545px;
     background-image: url("../img/back-tablet.png");
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     min-width: 940px;
     min-height: 853px;
     background-image: url("../img/back-desktop.png");
@@ -20,14 +21,22 @@
   }
 }
 
+.page-header--closed,
+.page-header--open {
+  @media (max-width: 1199px) {
+    min-height: 733px;
+    background-position: 0 0;
+  }
+}
+
 .page-header--form {
   min-height: 489px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     min-height: 705px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
     min-height: 384px;
   }
 }

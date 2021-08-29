@@ -2,41 +2,61 @@
   list-style: none;
 }
 
+.download {
+  @media (min-width: 660px) {
+    padding-top: 71px;
+  }
+}
 
-.download__wrapper {
+.page-header--open .download {
+  padding-top: 66px;
+
+  @media (min-width: 660px) {
+    padding-top: 180px;
+  }
+}
+
+.download .download__wrapper {
   text-align: center;
   background-image: url("../img/phone-mobile.png");
   background-repeat: no-repeat;
   background-position: 0 85px;
 
-  @media (min-width: 620px) {
-    height: 716px;
+  @media (min-width: 660px) {
+    width: 620px;
+    height: 524px;
     background-image: url("../img/phone-tablet.png");
     background-repeat: no-repeat;
     background-position: 0 171px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 940px;
   }
 }
 
 .download__title {
   color: $white;
   width: 280px;
-  margin: 24px 20px 344px;
+  margin: 24px 0 344px;
   font-size: 24px;
   font-weight: 300;
   line-height: 29px;
 
-  @media (min-width: 620px) {
+  @media (min-width: 660px) {
     font-size: 40px;
     line-height: 48px;
     width: 230px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    padding-left: 34px;
   }
 
-  @media (min-width: 940px) {
+  @media (min-width: 1200px) {
+    padding-left: 0;
     font-size: 50px;
     line-height: 68px;
     width: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 38px;
   }
 }
 
@@ -47,21 +67,33 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  margin: 32px 58px 14px 58px;
+  margin: 32px auto 14px;
+
+  @media (min-width: 660px) {
+    margin-left: 46px;
+    margin-top: 46px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 67px;
+  }
 }
 
 .download__text {
   color: $white;
   width: 280px;
   height: 34px;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  margin: 0 20px;
+  margin: 0;
 
-  @media (min-width: 940px) {
+
+  @media (min-width: 660px) {
     font-size: 18px;
     font-weight: 300;
     width: 300px;
+    padding-top: 12px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 30px;
   }
 }
