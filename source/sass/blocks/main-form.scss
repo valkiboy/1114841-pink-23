@@ -309,18 +309,19 @@
     padding-top: 45px;
     padding-bottom: 0;
   }
+
   @media (min-width: 1200px) {
     padding-left: 134px;
   }
 }
 
 .main-form__label--id {
- padding-top: 22px;
- padding-left: 24px;
+  padding-top: 22px;
+  padding-left: 24px;
 
-@media (min-width: 660px) {
-  padding-top: 14px;
-  padding-left: 19px;
+  @media (min-width: 660px) {
+    padding-top: 14px;
+    padding-left: 19px;
   }
 }
 

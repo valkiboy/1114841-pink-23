@@ -51,6 +51,7 @@
 .photo__description--panorama {
   @media (min-width: 660px) {
     width: 620px;
+    position: relative;
   }
 
   @media (min-width: 1200px) {
@@ -127,12 +128,6 @@
 .photo__description br {
   @media (min-width: 660px) {
     display: none;
-  }
-}
-
-.photo__description--panorama {
-  @media (min-width: 660px) {
-    position: relative;
   }
 }
 
