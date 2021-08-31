@@ -33,7 +33,7 @@
             <a href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a>Фотография</a>
+            <a>Фотографии</a>
           </li>
           <li class="main-nav__item">
             <a href="form.html">Конкурс</a>
@@ -68,7 +68,7 @@
           <header class="photo__header">Анна <span>(5 минут назад)</span></header>
           <p>Прыгать или нет? Напишите в комментарии свой совет и <br>смотрите прямую трансляцию в перископе, задавайте
             свои вопросы!</p>
-          <footer class="photo__footer">
+          <footer class="photo__footer photo__footer--panorama">
             <button class="button-heart" type="button"></button>
             <p>Нравится:<span>215</span></p>
           </footer>
@@ -115,7 +115,7 @@
             <p>Здесь могла быть ваша цитата о высоком и вечном.</p>
             <footer class="photo__footer">
               <button class="button-heart" type="button"></button>
-              <p>Нравится:<span>356</span></p>
+              <p>Нравится:<span>215</span></p>
             </footer>
           </div>
         </article>
@@ -285,7 +285,7 @@
 
     pageHeader.classList.add('page-header--closed');
 
-    navToggle.addEventListener('click', function() {
+    navToggle.addEventListener('click', function () {
       if (pageHeader.classList.contains('page-header--closed')) {
         pageHeader.classList.remove('page-header--closed');
         pageHeader.classList.add('page-header--open');

@@ -30,13 +30,14 @@
 }
 
 .page-header--form {
-  min-height: 489px;
+  min-height: 237px;
+
 
   @media (min-width: 660px) {
-    min-height: 705px;
+    min-height: 440px;
   }
 
   @media (min-width: 1200px) {
-    min-height: 384px;
+    min-height: 394px;
   }
 }

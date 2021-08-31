@@ -33,7 +33,7 @@
             <a href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a href="catalog.html">Фотография</a>
+            <a href="catalog.html">Фотографии</a>
           </li>
           <li class="main-nav__item">
             <a>Конкурс</a>
@@ -51,19 +51,20 @@
   <main class="main-page">
     <div class="promo wrapper">
       <p class="promo__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу
-        бонусную карту!</p>
+        бонусную карту!<span class="promo__text-form">Пожалуйста, заполните форму ниже:</span></p>
     </div>
-    <form class="main-form wrapper" action="https://echo.htmlacademy.ru" method="post">
+    <form class="main-form" action="https://echo.htmlacademy.ru" method="post">
       <fieldset class="main-form__group">
         <div class="main-form__wrapper">
           <div class="main-form__container main-form__container--name">
             <label class="main-form__label" for="surname">Фамилия:</label>
-            <input class="main-form__input main-form__input--name" type="text" id="surname" name="surname" placeholder="Укажите фамилию *"
-              required>
+            <input class="main-form__input main-form__input--name" type="text" id="surname" name="surname"
+              placeholder="Укажите фамилию *" required>
           </div>
           <div class="main-form__container main-form__container--name">
             <label class="main-form__label" for="name">Имя:</label>
-            <input class="main-form__input main-form__input--name" type="text" id="name" name="name" placeholder="Введите ваше имя *" required>
+            <input class="main-form__input main-form__input--name" type="text" id="name" name="name"
+              placeholder="Введите ваше имя *" required>
           </div>
           <div class="main-form__container main-form__container--name">
             <label class="main-form__label" for="middlename">Отчество:</label>
@@ -72,7 +73,7 @@
           </div>
         </div>
       </fieldset>
-      <fieldset class="main-form__group">
+      <fieldset class="main-form__group main-form__group--checkbox">
         <h2 class="main-form__title">Ваши безбашенные достижения в путешествии</h2>
         <div class="main-form__wrapper main-form__wrapper--checkbox">
           <div class="main-form__container main-form__container--checkbox">
@@ -102,20 +103,22 @@
         </div>
       </fieldset>
       <fieldset class="main-form__group">
+        <h2 class="main-form__title main-form__title--id">Контактная информация</h2>
         <div class="main-form__wrapper main-form__wrapper--id">
           <div class="main-form__container main-form__container--id">
-            <label class="main-form__label" for="telephone">Номер телефона</label>
-            <input class="main-form__input main-form__input--id" type="tel" id="telephone" name="telephone" placeholder="Номер, пожалуйста"
-              required>
+            <label class="main-form__label main-form__label--id" for="telephone">Номер телефона</label>
+            <input class="main-form__input main-form__input--id" type="tel" id="telephone" name="telephone"
+              placeholder="Номер, пожалуйста" required>
           </div>
           <div class="main-form__container main-form__container--id">
-            <label class="main-form__label" for="mail">Адрес почты</label>
-            <input class="main-form__input main-form__input--id" type="email" id="mail" name="mail" placeholder="Введите почту *" required>
+            <label class="main-form__label main-form__label--id" for="mail">Адрес почты</label>
+            <input class="main-form__input main-form__input--id" type="email" id="mail" name="mail"
+              placeholder="Введите почту *" required>
           </div>
         </div>
       </fieldset>
       <fieldset class="main-form__group">
-        <h2 class="main-form__title">С каким приложением путешествовали?</h2>
+        <h2 class="main-form__title main-form__title--radio">С каким приложением путешествовали?</h2>
         <div class="main-form__wrapper">
           <div class="main-form__container main-form__container--radio">
             <input class="main-form__input-radio" type="radio" id="app-ios" name="apps" checked>
@@ -142,7 +145,7 @@
       </fieldset>
       <div class="main-form__group-button">
         <button class="main-form__button button-form" type="submit">Отправить форму</button>
-        <p class="main-form__remark"><sup>*</sup> — обязательные поля</p>
+        <p class="main-form__remark"><sup>*</sup> — обязательные <span class="main-form__remark--fill">для заполнения</span> поля</p>
       </div>
     </form>
   </main>
@@ -224,7 +227,7 @@
 
     pageHeader.classList.add('page-header--closed');
 
-    navToggle.addEventListener('click', function() {
+    navToggle.addEventListener('click', function () {
       if (pageHeader.classList.contains('page-header--closed')) {
         pageHeader.classList.remove('page-header--closed');
         pageHeader.classList.add('page-header--open');
