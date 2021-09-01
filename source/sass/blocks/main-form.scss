@@ -1,4 +1,4 @@
-.main-page .main-form {
+.main-form {
   @media (min-width: 660px) {
     display: flex;
     flex-direction: column;
@@ -400,7 +400,7 @@
   }
 }
 
-.main-form__remark--fill {
+.main-form__remark-fill {
   display: none;
 
   @media (min-width: 1200px) {

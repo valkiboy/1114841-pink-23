@@ -41,3 +41,111 @@
     min-height: 394px;
   }
 }
+
+.page-header--closed .page-header__list {
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.page-header--open .page-header__toggle,
+.page-header--closed .page-header__toggle {
+  display: block;
+
+  @media (min-width: 660px) {
+    top: 41px;
+  }
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.page-header--closed .page-header__toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background-color: $white;
+  box-shadow: 0 10px 0 0 $white, 0 20px 0 0 $white;
+}
+
+.page-header--closed .page-header__toggle:hover::before {
+  background-color: $red;
+  box-shadow:
+    0 10px 0 0 $red,
+    0 20px 0 0 $red;
+}
+
+.page-header--closed .page-header__toggle:active::before {
+  background-color: rgba($red, 0.3);
+  box-shadow:
+    0 10px 0 0 rgba($red, 0.3),
+    0 20px 0 0 rgba($red, 0.3);
+}
+
+.page-header--open .page-header__toggle {
+  width: 23px;
+  height: 23px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background-color: $white;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+
+  &:hover::before,
+  &:hover::after {
+    background-color: $red;
+  }
+}
+
+.page-header--open .page-header__download {
+  padding-top: 66px;
+
+  @media (min-width: 660px) {
+    padding-top: 180px;
+  }
+}
+
+.page-header--closed .page-header__logo-wrapper {
+  border: none;
+}
+
+.page-header--open .page-header__logo,
+.page-header--closed .page-header__logo {
+  @media (min-width: 660px) {
+    margin-right: 526px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-right: auto;
+  }
+}
+
+.page-header--open .page-header__nav-wrapper {
+  @media (max-width: 1199px) {
+    background-color: $dark-blue;
+    position: absolute;
+  }
+}
+
+.page-header--closed .page-header__nav-wrapper {
+  background-color: rgba($black, 0.3);
+}
