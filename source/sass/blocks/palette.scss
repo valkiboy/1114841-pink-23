@@ -7,13 +7,15 @@
   position: relative;
 
   @media (min-width: 660px) {
-    min-width: 620px;
+    min-width: 660px;
     min-height: 511px;
+    margin-bottom: 4px;
   }
 
   @media (min-width: 1200px) {
     min-height: 514px;
     width: 940px;
+    margin-bottom: 69px;
   }
 }
 
@@ -28,11 +30,12 @@
   @media (min-width: 660px) {
     width: 300px;
     height: 400px;
+    top: 57px;
   }
 
-  // @media (min-width: 1200px) {
-  //   min-width: 940px;
-  // }
+  @media (min-width: 1200px) {
+    left: 80px;
+  }
 }
 
 .palette__effects-wrapper {
@@ -56,21 +59,21 @@
   display: flex;
   align-items: center;
   width: 192px;
-  justify-content: space-around;
-  margin-left: 57px;
-  margin-bottom: 39px;
+  justify-content: space-between;
+  margin-left: 47px;
+  margin-bottom: 30px;
 
   @media (min-width: 660px) {
     flex-direction: column;
     min-height: 150px;
-    padding-top: 5px;
-    margin-left: 300px;
+    padding-top: 46px;
+    margin-left: 332px;
     width: 50px;
     height: 200px;
   }
 
   @media (min-width: 1200px) {
-    margin-left: 400px;
+    margin-left: 457px;
   }
 }
 
@@ -128,11 +131,12 @@
 
 .palette__range-wrapper {
   @media (min-width: 660px) {
-    padding-top: 10px;
+    padding-top: 41px;
+    padding-left: 15px;
   }
 
   @media (min-width: 1200px) {
-    // min-width: 940px;
+    padding-left: 32px;
   }
 }
 
@@ -175,23 +179,56 @@
   @media (min-width: 660px) {
     display: flex;
     flex-direction: column;
-    margin-left: 330px;
+    margin-left: 367px;
   }
 
   @media (min-width: 1200px) {
+    min-height: 60px;
     flex-direction: row;
-    width: 400px;
+    width: 410px;
     justify-content: space-between;
-    margin-left: 400px;
+    margin-left: 470px;
+    padding-top: 117px;
   }
 }
 
 .palette__range-button {
   width: 14px;
   height: 14px;
+  padding: 1px 5px;
   border-radius: 50%;
   border: 2px solid $red;
   position: absolute;
   top: -5px;
   right: 73px;
+}
+
+.palette__range-button--crop {
+  @media (min-width: 660px) {
+    right: 28px;
+  }
+
+  @media (min-width: 1200px) {
+    right: 40px;
+  }
+}
+
+.palette__range-button--fill {
+  @media (min-width: 660px) {
+    right: 163px;
+  }
+
+  @media (min-width: 1200px) {
+    left: 37px;
+  }
+}
+
+.palette__range-button--contrast {
+  @media (min-width: 660px) {
+    right: 92px;
+  }
+
+  @media (min-width: 1200px) {
+    right: 137px;
+  }
 }

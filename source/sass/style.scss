@@ -7,6 +7,7 @@
 
 //Blocks
 
+@import "blocks/wrapper.scss";
 @import "blocks/page-body.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-page.scss";
@@ -32,7 +33,7 @@
 @import "blocks/palette.scss";
 @import "blocks/diagram.scss";
 @import "blocks/slider.scss";
-@import "blocks/wrapper.scss";
+@import "blocks/copyright.scss";
 
 // body {
 //   background: #36789c;

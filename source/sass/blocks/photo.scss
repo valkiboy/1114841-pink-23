@@ -51,10 +51,7 @@
 .photo__description--panorama {
   @media (min-width: 660px) {
     width: 620px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    position: relative;
   }
 
   @media (min-width: 1200px) {
@@ -72,6 +69,7 @@
 
   @media (min-width: 660px) {
     width: 620px;
+    justify-content: space-between;
   }
 
   @media (min-width: 1200px) {
@@ -86,15 +84,27 @@
 
   @media (min-width: 660px) {
     width: 300px;
+    margin: 0;
   }
 }
 
 .photo__header {
   font-weight: 700;
   padding-left: 17px;
+  padding-top: 11px;
+
+  @media (min-width: 660px) {
+    padding-left: 30px;
+    padding-top: 16px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-left: 27px;
+  }
 }
 
 .photo__header span {
+  text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;
 }
@@ -102,9 +112,22 @@
 .photo__description p {
   width: 255px;
   padding-left: 17px;
+  margin: 0;
 
   @media (min-width: 660px) {
     width: 246px;
+    padding-left: 30px;
+    min-height: 48px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-left: 27px;
+  }
+}
+
+.photo__description br {
+  @media (min-width: 660px) {
+    display: none;
   }
 }
 
@@ -112,10 +135,12 @@
   @media (min-width: 660px) {
     order: 1;
     width: 520px;
+    padding-bottom: 24px;
   }
 
   @media (min-width: 1200px) {
     width: 874px;
+    padding-bottom: 0;
   }
 }
 
@@ -123,18 +148,44 @@
   display: flex;
   width: 200px;
   margin: 0 0 0 17px;
+  padding-top: 11px;
+  padding-bottom: 18px;
 
   @media (min-width: 660px) {
     flex-direction: row-reverse;
+    width: 255px;
+    padding-bottom: 0;
+  }
+}
+
+.photo__footer--panorama {
+  @media (min-width: 660px) {
+    width: 136px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 17px;
+    right: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 130px;
+    right: 31px;
   }
 }
 
 .photo__footer p {
-  padding: 0;
   margin: 0;
   padding-left: 18px;
-  padding-bottom: 26px;
   color: $red;
   text-transform: uppercase;
   font-size: 12px;
+
+  @media (min-width: 660px) {
+    padding-left: 12px;
+  }
+}
+
+.photo__footer span {
+  padding-left: 3px;
 }

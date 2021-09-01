@@ -8,15 +8,7 @@
   }
 }
 
-.page-header--open .download {
-  padding-top: 66px;
-
-  @media (min-width: 660px) {
-    padding-top: 180px;
-  }
-}
-
-.download .download__wrapper {
+.download__wrapper {
   text-align: center;
   background-image: url("../img/phone-mobile.png");
   background-repeat: no-repeat;
