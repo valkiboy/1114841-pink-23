@@ -5,13 +5,18 @@
 }
 
 .photo__item-panorama {
+  width: 320px;
   position: relative;
-  width: 100%;
+  // width: 100%;
   margin-left: auto;
   margin-right: auto;
 
+  @media (min-width: 660px) {
+    width: 660px;
+  }
+
   @media (min-width: 1200px) {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
@@ -188,4 +193,58 @@
 
 .photo__footer span {
   padding-left: 3px;
+}
+
+.photo-panorama {
+  @media (min-width: 660px) {
+    width: 660px;
+    height: auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+    height: auto;
+  }
+}
+
+.photo-1 {
+  @media (min-width: 660px) {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.photo-2 {
+  @media (min-width: 660px) {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.photo-3 {
+  @media (min-width: 660px) {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.photo-4 {
+  @media (min-width: 660px) {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.photo-5 {
+  @media (min-width: 660px) {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.photo-6 {
+  @media (min-width: 660px) {
+    width: 300px;
+    height: auto;
+  }
 }

@@ -11,6 +11,7 @@
 
   @media (min-width: 1200px) {
     width: 1200px;
+    background-color: $gray;
   }
 }
 
@@ -31,14 +32,18 @@
 
 .diagram__wrapper {
   width: 310px;
-  margin-left: 310px;
-  margin-right: 20px;
+  padding: 0 20px 27px 310px;
+  background-image: url("../img/diagram-tablet.svg");
+  background-repeat: no-repeat;
+  background-position: 0 55px;
 
   @media (min-width: 1200px) {
     width: 534px;
-    margin-left: 500px;
-    margin-right: 166px;
-    margin-bottom: 215px;
+    padding-left: 500px;
+    padding-right: 166px;
+    padding-bottom: 111px;
+    background-size: 300px auto;
+    background-position: 130px 18px;
   }
 }
 
