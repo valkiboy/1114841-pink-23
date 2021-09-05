@@ -6,17 +6,18 @@
   min-width: 320px;
   min-height: 402px;
   text-align: center;
-  margin-top: 41px;
+  padding-top: 41px;
   background-image: linear-gradient(177deg, $white 80%, $gray 80%, $gray 20%);
 
   @media (min-width: 660px) {
     min-width: 620px;
-    padding-top: 81px;
+    padding-top: 95px;
     min-height: 330px;
   }
 
   @media (min-width: 1200px) {
     min-width: 900px;
+    padding-top: 186px;
   }
 }
 
