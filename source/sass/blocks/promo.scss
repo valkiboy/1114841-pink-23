@@ -29,6 +29,7 @@
 
   @media (min-width: 1200px) {
     width: 756px;
+    padding-top: 90px;
   }
 }
 
@@ -41,6 +42,7 @@
 
   @media (min-width: 1200px) {
     display: inline;
+    padding-left: 5px;
   }
 }
 
@@ -56,12 +58,13 @@
   @media (min-width: 660px) {
     width: 490px;
     font-size: 18px;
-    padding-top: 74px;
-    padding-bottom: 58px;
+    padding-top: 73px;
+    padding-bottom: 59px;
   }
 
   @media (min-width: 1200px) {
     width: 572px;
     padding-bottom: 71px;
+    padding-top: 72px;
   }
 }

@@ -17,7 +17,7 @@
 
 .diagram__title {
   margin: 0;
-  padding-top: 97px;
+  padding-top: 96px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -35,15 +35,15 @@
   padding: 0 20px 27px 310px;
   background-image: url("../img/diagram-tablet.svg");
   background-repeat: no-repeat;
-  background-position: 0 55px;
+  background-position: 0 54px;
 
   @media (min-width: 1200px) {
     width: 534px;
     padding-left: 500px;
     padding-right: 166px;
     padding-bottom: 111px;
-    background-size: 300px auto;
-    background-position: 130px 18px;
+    background-size: 298px auto;
+    background-position: 131px 19px;
   }
 }
 
@@ -76,5 +76,17 @@
   @media (min-width: 1200px) {
     font-size: 18px;
     line-height: 30px;
+  }
+}
+
+.diagram__title br {
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.diagram__text br {
+  @media (min-width: 1200px) {
+    display: none;
   }
 }

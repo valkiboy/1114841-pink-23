@@ -23,8 +23,10 @@
   }
 
   @media (min-width: 1200px) {
-    min-width: 940px;
+    width: 1200px;
     min-height: 853px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("../img/back-desktop.png");
     background-position: center top;
 
@@ -67,7 +69,7 @@
   display: block;
 
   @media (min-width: 660px) {
-    top: 41px;
+    top: 43px;
   }
 
   @media (min-width: 1200px) {
@@ -134,7 +136,7 @@
   padding-top: 66px;
 
   @media (min-width: 660px) {
-    padding-top: 109px;
+    padding-top: 110px;
   }
 }
 
@@ -142,10 +144,18 @@
   border: none;
 }
 
+.page-header--open .page-header__logo-wrapper {
+  min-height: 68px;
+
+  @media (min-width: 660px) {
+    min-height: 108px;
+  }
+}
+
 .page-header--open .page-header__logo,
 .page-header--closed .page-header__logo {
   @media (min-width: 660px) {
-    margin-right: 526px;
+    // margin-right: 526px;
   }
 
   @media (min-width: 1200px) {
@@ -162,4 +172,50 @@
 
 .page-header--closed .page-header__nav-wrapper {
   background-color: rgba($black, 0.3);
+}
+
+.page-header__logo-wrapper a {
+  fill: $white;
+
+  &:hover {
+    fill: $red;
+  }
+
+  &:focus {
+    fill: rgba($white, 0.3);
+  }
+}
+
+.page-header__logo-mobile {
+  @media (min-width: 660px) {
+    display: none;
+  }
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.page-header__logo-tablet {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: block;
+  }
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.page-header__logo-desktop {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: none;
+  }
+
+  @media (min-width: 1200px) {
+    display: block;
+  }
 }
