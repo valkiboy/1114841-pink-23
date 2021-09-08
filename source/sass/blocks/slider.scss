@@ -1,3 +1,34 @@
+@media (min-width: 320px) {
+  .slider__toggle {
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    background-color: rgba($dark-blue, 0.3);
+    border: 3px solid transparent;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-sizing: content-box;
+    background-clip: padding-box;
+    cursor: pointer;
+  }
+
+  .slider__toggle:not(.slider__toggle--current) {
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:focus {
+      opacity: 0.1;
+    }
+  }
+
+  .slider__toggle--current {
+    background-color: $white;
+    border: 3px solid $dark-blue;
+  }
+}
+
 @media (min-width: 660px) {
   .slider__toggle-rates {
     display: none;
@@ -7,18 +38,35 @@
 @media (min-width: 1200px) {
   .slider__toggles {
     position: relative;
+    border-radius: 0;
+  }
+
+  .slider__toggle {
+    border-radius: 0;
   }
 
   .slider__toggle--left {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
     position: absolute;
-    top: -200px;
-    left: -100px;
+    top: -180px;
+    left: -158px;
+    border: 1px solid rgba($dark-blue, 0.3);
+    border-style: solid solid none none;
+    transform: rotate(225deg);
   }
 
   .slider__toggle--right {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
     position: absolute;
-    top: -200px;
-    right: -100px;
+    top: -180px;
+    right: -158px;
+    border: 1px solid rgba($dark-blue, 0.3);
+    border-style: solid solid none none;
+    transform: rotate(45deg);
   }
 
   .slider__toggle--middle {

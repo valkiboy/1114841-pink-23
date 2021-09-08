@@ -12,7 +12,7 @@
   text-align: center;
   background-image: url("../img/phone-mobile.png");
   background-repeat: no-repeat;
-  background-position: 0 109px;
+  background-position: 0 110px;
   padding-bottom: 45px;
 
   @media (min-resolution: 2dppx) {
@@ -22,10 +22,10 @@
 
   @media (min-width: 660px) {
     width: 620px;
-    min-height: 620px;
+    min-height: 619px;
     background-image: url("../img/phone-tablet.png");
     background-repeat: no-repeat;
-    background-position: -20px 75px;
+    background-position: -20px 74px;
     padding-bottom: 0;
 
     @media (min-resolution: 2dppx) {
@@ -36,10 +36,10 @@
 
   @media (min-width: 1200px) {
     width: 940px;
-    min-height: 744px;
+    min-height: 743px;
     background-image: url("../img/phone-desktop.png");
     background-repeat: no-repeat;
-    background-position: 16px 100px;
+    background-position: 16px 98px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../img/phone-desktop@2x.png");
@@ -52,7 +52,7 @@
   color: $white;
   width: 280px;
   margin: 0;
-  padding: 24px 0 342px;
+  padding: 23px 0 343px;
   font-size: 24px;
   font-weight: 300;
   line-height: 29px;
@@ -61,16 +61,16 @@
     font-size: 40px;
     line-height: 48px;
     width: 230px;
-    padding: 95px 0 30px 34px;
+    padding: 94px 0 30px 35px;
   }
 
   @media (min-width: 1200px) {
     padding-left: 0;
-    padding-top: 101px;
+    padding-top: 100px;
     font-size: 50px;
     line-height: 68px;
     width: 300px;
-    padding-bottom: 38px;
+    padding-bottom: 37px;
   }
 }
 
@@ -98,13 +98,14 @@
   width: 280px;
   height: 34px;
   margin: 0;
+  font-weight: 300;
 
 
   @media (min-width: 660px) {
     font-size: 18px;
     font-weight: 300;
     width: 300px;
-    padding-top: 12px;
+    padding-top: 11px;
   }
 
   @media (min-width: 1200px) {

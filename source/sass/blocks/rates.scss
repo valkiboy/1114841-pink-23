@@ -1,5 +1,11 @@
 .rates {
   background-color: $gray;
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .rates__wrapper {
@@ -12,28 +18,31 @@
   @media (min-width: 660px) {
     width: 620px;
     padding-top: 15px;
+    // min-height: 288px;
   }
 
   @media (min-width: 1200px) {
     width: 940px;
     padding-top: 49px;
+    padding-bottom: 27px;
   }
 }
 
 .rates__list {
   border-spacing: 0;
-  margin-bottom: 54px;
+  margin-bottom: 33px;
   width: 834px;
   line-height: 30px;
   text-transform: uppercase;
 
   @media (min-width: 660px) {
-    width: 610px;
+    width: 620px;
     text-transform: none;
+    margin-bottom: 29px;
   }
 
   @media (min-width: 1200px) {
-    width: 934px;
+    width: 943px;
     font-size: 18px;
   }
 }
@@ -56,12 +65,14 @@
   border-right: 2px solid $light-grey;
 
   @media (min-width: 660px) {
-    padding-top: 10px;
+    padding-top: 11px;
     padding-bottom: 10px;
   }
 
   @media (min-width: 1200px) {
     font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 23px;
   }
 }
 
@@ -87,18 +98,30 @@
   position: absolute;
   font-size: 14px;
   font-weight: 400;
-  top: 19px;
+  top: 17px;
   left: -31px;
   width: 115px;
   height: 25px;
   clip-path: polygon(26% 0%, 80% 0%, 100% 100%, 4% 100%);
   background-color: $red;
   transform: rotate(-45deg);
+
+  @media (min-width: 660px) {
+    top: 15px;
+    left: -26px;
+    width: 94px;
+    height: 20px;
+    clip-path: polygon(29% 0%, 77% 0%, 98% 100%, 8% 100%);
+  }
+
+  // @media (min-width: 1200px) {
+  // }
 }
 
 .rates__name {
+  height: 27px;
   display: block;
-  padding-top: 14px;
+  padding-top: 12px;
 
   @media (min-width: 660px) {
     padding: 0;
@@ -112,7 +135,7 @@
   display: block;
   font-weight: 300;
   font-size: 18px;
-  padding-bottom: 26px;
+  padding-bottom: 29px;
 
   @media (min-width: 660px) {
     padding: 0;
@@ -134,12 +157,14 @@
 
   @media (min-width: 660px) {
     width: 25%;
-    height: 45px;
-    padding-left: 20px;
+    height: 43px;
+    padding-left: 15px;
+    padding-top: 1px;
   }
 
   @media (min-width: 1200px) {
-    height: 59px;
+    height: 57px;
+    padding-left: 21px;
   }
 }
 
@@ -159,10 +184,11 @@
 
   @media (min-width: 660px) {
     justify-content: start;
+    padding-left: 12px;
   }
 
-  @media (min-width: 660px) {
-    padding-left: 45px;
+  @media (min-width: 1200px) {
+    padding-left: 46px;
   }
 }
 
@@ -197,4 +223,5 @@
 
 .rates__toggles {
   text-align: center;
+  padding-bottom: 41px;
 }

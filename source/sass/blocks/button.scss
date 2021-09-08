@@ -18,6 +18,15 @@
   padding: 15px 0;
   margin: 0;
 
+  &:hover {
+    background-color: $white;
+    color: $red;
+  }
+
+  &:focus {
+    color: rgba($red, 0.3);
+  }
+
   @media (min-width: 660px) {
     width: 300px;
   }
