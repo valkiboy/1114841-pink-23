@@ -2,7 +2,7 @@
   background-color: $gray;
 
   @media (min-width: 1200px) {
-    width: 1200px;
+    // width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -89,6 +89,7 @@
 
 .rates__column-header--hit {
   position: relative;
+  overflow: hidden;
 }
 
 .rates__column-stiker {

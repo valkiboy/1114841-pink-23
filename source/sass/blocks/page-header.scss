@@ -23,10 +23,10 @@
   }
 
   @media (min-width: 1200px) {
-    width: 1200px;
+    min-width: 1200px;
     min-height: 853px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     background-image: url("../img/back-desktop.png");
     background-position: center top;
 

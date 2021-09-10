@@ -2,7 +2,7 @@
   display: none;
 
   @media (min-width: 660px) {
-    width: 620px;
+    min-width: 620px;
     display: block;
     text-align: left;
     margin-left: auto;
@@ -10,7 +10,7 @@
   }
 
   @media (min-width: 1200px) {
-    width: 1200px;
+    // width: 1200px;
     background-color: $gray;
   }
 }
@@ -36,6 +36,9 @@
   background-image: url("../img/diagram-tablet.svg");
   background-repeat: no-repeat;
   background-position: 0 54px;
+  margin-left: auto;
+  margin-right: auto;
+
 
   @media (min-width: 1200px) {
     width: 534px;

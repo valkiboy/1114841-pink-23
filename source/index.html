@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Пинк</title>
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style.min.css" rel="stylesheet" />
   <link rel="icon" href="favicon.ico" />
 </head>
 
@@ -452,22 +452,7 @@
     </div>
   </footer>
 
-  <script>
-    var pageHeader = document.querySelector('.page-header');
-    var navToggle = document.querySelector('.main-nav__toggle');
-
-    pageHeader.classList.add('page-header--closed');
-
-    navToggle.addEventListener('click', function () {
-      if (pageHeader.classList.contains('page-header--closed')) {
-        pageHeader.classList.remove('page-header--closed');
-        pageHeader.classList.add('page-header--open');
-      } else {
-        pageHeader.classList.add('page-header--closed');
-        pageHeader.classList.remove('page-header--open');
-      }
-    });
-  </script>
+  <script src="js/script.min.js"></script>
 
   <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a
       href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p> -->
