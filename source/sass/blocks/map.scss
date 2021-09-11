@@ -1,19 +1,18 @@
 .map__wrapper {
   position: relative;
-  width: 320px;
+  min-width: 320px;
   height: 200px;
-  margin: 10px auto 0 auto;
+  margin: 0 auto;
 
 
   @media (min-width: 660px) {
-    width: 660px;
-    height: 374px;
+    height: 384px;
     overflow: hidden;
   }
 
   @media (min-width: 1200px) {
-    width: 1200px;
     height: 502px;
+    margin-top: 10px;
   }
 }
 
@@ -38,7 +37,8 @@
   background-size: contain;
 
   @media (min-width: 660px) {
-    top: -64px;
+    top: -54px;
+    background-position-x: center;
   }
 
   @media (min-width: 1200px) {

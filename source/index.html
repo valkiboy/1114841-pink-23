@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Пинк</title>
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style.min.css" rel="stylesheet" />
   <link rel="icon" href="favicon.ico" />
 </head>
 
@@ -230,8 +230,8 @@
           </li>
           <li class="advantages__item">
             <h3 class="advantages__title">Меняет мир вокруг</h3>
-            <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы <br>усилить
-              эффект</p>
+            <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы <span>усилить
+              эффект</span></p>
           </li>
           <li class="advantages__item">
             <h3 class="advantages__title">Заводит новых друзей</h3>
@@ -244,10 +244,10 @@
     <section class="diagram">
       <div class="diagram__wrapper">
         <h2 class="visually-hidden">Выводы британских ученых</h2>
-        <h3 class="diagram__title">Эффект<br> на 24 часа!</h3>
+        <h3 class="diagram__title">Эффект<span> на 24 часа!</span></h3>
         <p class="diagram__text"><span class="diagram__text-info">Британские ученые провели исследования и
             доказали,</span> что
-          положительный эффект<br> от использования приложения длится целые сутки!</p>
+          положительный эффект<span> от использования приложения длится целые сутки!</span></p>
         <a href="index.html">Узнать больше об исследовании</a>
       </div>
     </section>
@@ -452,22 +452,7 @@
     </div>
   </footer>
 
-  <script>
-    var pageHeader = document.querySelector('.page-header');
-    var navToggle = document.querySelector('.main-nav__toggle');
-
-    pageHeader.classList.add('page-header--closed');
-
-    navToggle.addEventListener('click', function () {
-      if (pageHeader.classList.contains('page-header--closed')) {
-        pageHeader.classList.remove('page-header--closed');
-        pageHeader.classList.add('page-header--open');
-      } else {
-        pageHeader.classList.add('page-header--closed');
-        pageHeader.classList.remove('page-header--open');
-      }
-    });
-  </script>
+  <script src="js/script.min.js"></script>
 
   <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a
       href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p> -->

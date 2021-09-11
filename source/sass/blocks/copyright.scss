@@ -17,6 +17,15 @@
   position: absolute;
   top: 2px;
   left: 103px;
+  fill: $red;
+
+  &:hover {
+    fill: $dark-blue;
+  }
+
+  &:focus {
+    opacity: 0.3;
+  }
 
   @media (min-width: 660px) {
     top: 2px;
@@ -26,17 +35,5 @@
   @media (min-width: 1200px) {
     top: -2px;
     left: 126px;
-  }
-}
-
-.copyright__link-academy {
-  fill: $red;
-
-  &:hover {
-    fill: $dark-blue;
-  }
-
-  &:focus {
-    opacity: 0.3;
   }
 }
