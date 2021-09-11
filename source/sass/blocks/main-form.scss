@@ -244,6 +244,14 @@
   line-height: 30px;
   padding-left: 20px;
   padding-right: 70px;
+
+  &:hover {
+    border-color: $dark-blue;
+  }
+
+  &:focus {
+    border-color: $red;
+  }
 }
 
 .main-form__input-checkbox {
@@ -305,6 +313,12 @@
 
   @media (min-width: 660px) {
     display: block;
+    width: 245px;
+    left: 185px;
+  }
+
+  @media (min-width: 1200px) {
+    left: 344px;
   }
 }
 
@@ -342,6 +356,15 @@
     left: 38px;
   }
 }
+
+.main-form__label-checkbox:hover::before {
+  border-color: $dark-blue;
+}
+
+.main-form__label-checkbox:active::before {
+  border-color: $red;
+}
+
 
 .main-form__input-checkbox:checked + .main-form__label-checkbox::before {
   position: absolute;
@@ -398,6 +421,14 @@
     top: 40px;
     left: 73px;
   }
+}
+
+.main-form__label-radio:hover::after {
+  border-color: $dark-blue;
+}
+
+.main-form__label-radio:active::after {
+  border-color: $red;
 }
 
 .main-form__input-radio:checked + .main-form__label-radio::after {
@@ -526,4 +557,27 @@
 
 .main-form__remark sup {
   color: $red;
+}
+
+.main-form__group--checkbox h2 {
+  @media (min-width: 660px) {
+    width: 438px;
+    left: 89px;
+  }
+
+  @media (min-width: 1200px) {
+    left: 250px;
+  }
+}
+
+.main-form__title--message {
+  @media (min-width: 660px) {
+    width: 260px;
+    left: 178px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 260px;
+    left: 337px;
+  }
 }
