@@ -15,6 +15,18 @@
   font-weight: 700;
   line-height: 30px;
 
+  &:hover {
+    background-color: $dark-green;
+  }
+
+  &:focus {
+    color: rgba($white, 0.3);
+  }
+
+  &:disabled {
+    background-color: $light-grey;
+  }
+
   @media (min-width: 660px) {
     width: 300px;
     margin-top: 9px;
