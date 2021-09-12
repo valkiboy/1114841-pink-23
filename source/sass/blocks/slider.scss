@@ -11,15 +11,27 @@
     box-sizing: content-box;
     background-clip: padding-box;
     cursor: pointer;
+
+    @media (min-width: 1200px) {
+      &:hover {
+        opacity: 0.6;
+      }
+
+      &:focus {
+        opacity: 0.1;
+      }
+    }
   }
 
   .slider__toggle:not(.slider__toggle--current) {
-    &:hover {
-      opacity: 0.6;
-    }
+    @media (max-width: 1199px) {
+      &:hover {
+        opacity: 0.6;
+      }
 
-    &:focus {
-      opacity: 0.1;
+      &:focus {
+        opacity: 0.1;
+      }
     }
   }
 
