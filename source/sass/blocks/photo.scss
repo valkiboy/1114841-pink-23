@@ -215,7 +215,7 @@
   padding-left: 3px;
 }
 
-.photo-panorama {
+.photo__panorama {
   @media (min-width: 660px) {
     width: 660px;
     height: auto;
@@ -227,7 +227,7 @@
   }
 }
 
-.photo-user {
+.photo__user {
   @media (min-width: 660px) {
     width: 300px;
     height: auto;
