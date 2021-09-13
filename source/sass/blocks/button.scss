@@ -53,9 +53,29 @@
 .button--palette-form-submit {
   color: $red;
   border: 3px solid $red;
+
+  &:hover {
+    background-color: $red;
+    color: $white;
+  }
+
+  &:focus {
+    color: rgba($white, 0.3);
+  }
 }
 
 .button--palette-form-reset {
   color: rgba($dark-blue, 0.1);
   border: 3px solid rgba($dark-blue, 0.1);
+
+  &:hover {
+    color: rgba($dark-blue, 0.3);
+    border: 3px solid rgba($dark-blue, 0.3);
+  }
+
+  &:focus {
+    color: rgba($white, 0.3);
+    background-color: rgba($dark-blue, 0.3);
+    border: none;
+  }
 }

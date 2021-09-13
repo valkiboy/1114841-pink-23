@@ -103,14 +103,37 @@
   background-color: transparent;
   padding: 0;
 
+  @media (max-width: 659px) {
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:focus {
+      fill: $red;
+      opacity: 1;
+    }
+  }
+
   @media (min-width: 660px) {
     position: absolute;
+    cursor: auto;
   }
 }
 
 .palette__effects-button--crop {
   width: 44px;
   height: 44px;
+  fill: $red;
+  // fill: rgba($dark-blue, 0.3);
+
+  // &:hover {
+  //   opacity: 0.5;
+  // }
+
+  // &:focus {
+  //   fill: $red;
+  //   opacity: 1;
+  // }
 
   @media (min-width: 660px) {
     left: 369px;
@@ -133,6 +156,16 @@
 .palette__effects-button--fill {
   width: 48px;
   height: 43px;
+  fill: rgba($dark-blue, 0.3);
+
+  // &:hover {
+  //   opacity: 0.5;
+  // }
+
+  // &:focus {
+  //   fill: $red;
+  //   opacity: 1;
+  // }
 
   @media (min-width: 660px) {
     left: 368px;
@@ -142,6 +175,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: $red;
   }
 
   @media (min-width: 1200px) {
@@ -155,6 +189,16 @@
 .palette__effects-button--contrast {
   width: 32px;
   height: 32px;
+  fill: rgba($dark-blue, 0.3);
+
+  // &:hover {
+  //   opacity: 0.5;
+  // }
+
+  // &:focus {
+  //   fill: $red;
+  //   opacity: 1;
+  // }
 
   @media (min-width: 660px) {
     left: 372px;
@@ -164,6 +208,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: $red;
   }
 
   @media (min-width: 1200px) {
@@ -253,6 +298,10 @@
   top: -5px;
   right: 73px;
   cursor: pointer;
+
+  &:focus {
+    background-color: $red;
+  }
 }
 
 .palette__range-button--crop {
@@ -286,8 +335,6 @@
 }
 
 .palette__effects-crop {
-  fill: $red;
-
   @media (min-width: 660px) {
     width: 22px;
   }
@@ -298,11 +345,9 @@
 }
 
 .palette__effects-fill {
-  fill: rgba($dark-blue, 0.3);
   width: 47px;
 
   @media (min-width: 660px) {
-    fill: $red;
     width: 24px;
   }
 
@@ -312,10 +357,7 @@
 }
 
 .palette__effects-contrast {
-  fill: rgba($dark-blue, 0.3);
-
   @media (min-width: 660px) {
-    fill: $red;
     width: 16px;
   }
 
