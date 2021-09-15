@@ -1,10 +1,23 @@
 .rates {
-  background-color: $gray;
+  background-image: linear-gradient(176.6deg, $white 9%, $gray 9%, $gray 91%);
+
+  @media (min-width: 660px) {
+    background-image: linear-gradient(176.6deg, $white 11%, $gray 11%, $gray 89%);
+  }
+
+  @media (min-width: 800px) {
+    background-image: linear-gradient(178deg, $white 11%, $gray 11%, $gray 89%);
+  }
 
   @media (min-width: 1200px) {
     // width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-image: linear-gradient(175.2deg, $white 18%, $gray 18%, $gray 82%);
+  }
+
+  @media (min-width: 1300px) {
+    background-image: linear-gradient(178deg, $white 18%, $gray 18%, $gray 82%);
   }
 }
 
@@ -14,16 +27,17 @@
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  padding-top: 130px;
 
   @media (min-width: 660px) {
     width: 620px;
-    padding-top: 15px;
+    padding-top: 105px;
     // min-height: 288px;
   }
 
   @media (min-width: 1200px) {
     width: 940px;
-    padding-top: 49px;
+    padding-top: 178px;
     padding-bottom: 27px;
   }
 }

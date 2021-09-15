@@ -274,6 +274,7 @@
 
   @media (min-width: 660px) {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 367px;
   }
@@ -284,7 +285,7 @@
     justify-content: space-between;
     margin-left: 470px;
     margin-top: 102px;
-    height: 113px;
+    height: 75px;
   }
 }
 

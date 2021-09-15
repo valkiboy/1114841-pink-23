@@ -6,11 +6,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 7px;
+  padding-bottom: 18px;
 
   @media (min-width: 660px) {
     width: 620px;
     justify-content: space-between;
+    padding-bottom: 7px;
   }
 
   @media (min-width: 1200px) {

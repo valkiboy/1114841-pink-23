@@ -128,6 +128,7 @@
 .main-form__wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .main-form__wrapper--id {
@@ -140,7 +141,7 @@
     flex-direction: row;
     width: 860px;
     justify-content: start;
-    padding-left: 56px;
+    // padding-left: 56px;
   }
 }
 
@@ -184,6 +185,7 @@
   @media (min-width: 1200px) {
     width: 375px;
     padding-top: 30px;
+    padding-left: 18px;
   }
 }
 
