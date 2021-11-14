@@ -1,5 +1,5 @@
-var pageHeader = document.querySelector(".page-header");
-var navToggle = document.querySelector(".main-nav__toggle");
+const pageHeader = document.querySelector(".page-header");
+const navToggle = document.querySelector(".main-nav__toggle");
 
 pageHeader.classList.add("page-header--closed");
 
